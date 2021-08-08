@@ -1,7 +1,7 @@
 const vscode = require('vscode');
 
 const { registerCommand, executeCommand } = vscode.commands;
-const { SendData, WrapSnippets } = require("../qtil/src/send.js");
+const { SendData, WrapSnippets } = require("./src/send.js");
 
 const MATCH_URL = "\\w+:\\/\\/\\S+";
 const MAX_MESSAGE = 2000;
