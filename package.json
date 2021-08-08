@@ -3,7 +3,9 @@
   "displayName": "Qtil",
   "description": "An easy to use VSCode quick utilities extension, that makes data exchange between documents easier.",
   "version": "0.0.1",
-  "repository": {},
+  "repository": {
+    "url": "https://github.com/generot/Qtil"
+  },
   "engines": {
     "vscode": "^1.59.0"
   },
